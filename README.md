@@ -5,8 +5,6 @@
 This project predicts used car prices using machine learning regression models.
 The goal is to analyze used car features such as brand, model year, mileage, fuel type, transmission type, accident history, and clean title status to estimate the selling price of a used car.
 
-This project is built as a portfolio-level machine learning regression project.
-
 ## Problem Statement
 
 Used car prices depend on many factors such as age, mileage, brand, fuel type, accident history, and transmission type.
@@ -123,7 +121,7 @@ XGBoost Regressor
 
 It achieved the lowest error values and the highest R2 score among all tested models.
 
-## New Car Price Prediction Example
+## Sample Used Car Price Prediction Example
 
 A sample used car was tested with the trained XGBoost model:
 
@@ -132,13 +130,13 @@ Brand: Toyota
 Model Year: 2020
 Mileage: 45,000
 Fuel Type: Gasoline
-Transmission: Automatic
+Transmission: 6-Speed A/T
 Accident History: None reported
 Clean Title: Yes
 Car Age: 6
 ```
 
-Predicted price:
+Predicted price (XGBoost):
 
 ```text
 $41,841.09
