@@ -65,25 +65,33 @@ price
 
 ### Price Distribution
 
-![Price Distribution](images/price_distribution.png)
+<p align="center">
+	<img src="images/price_distribution.png" alt="Price Distribution" width="700" />
+</p>
 
 The price distribution showed that most cars are in the lower and middle price ranges, while a few luxury cars had extremely high prices.
 
 ### Model Comparison by RMSE
 
-![Model Comparison by RMSE](images/model_comparison_rmse.png)
+<p align="center">
+	<img src="images/model_comparison_rmse.png" alt="Model Comparison by RMSE" width="700" />
+</p>
 
 RMSE was used to compare the prediction error of each model. A lower RMSE value indicates better performance.
 
 ### Model Comparison by R2 Score
 
-![Model Comparison by R2 Score](images/model_comparison_r2.png)
+<p align="center">
+	<img src="images/model_comparison_r2.png" alt="Model Comparison by R2 Score" width="700" />
+</p>
 
 R2 Score was used to measure how well each model explained the variation in car prices.
 
 ### Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+<p align="center">
+	<img src="images/feature_importance.png" alt="Feature Importance" width="700" />
+</p>
 
 Feature importance analysis showed which features contributed most to the final model’s predictions.
 
@@ -141,13 +149,13 @@ $41,841.09
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/used-car-price-prediction-ml.git
+git clone https://github.com/SMCodeX7/Used-Car-Price-Prediction.git
 ```
 
 2. Go into the project folder:
 
 ```bash
-cd used-car-price-prediction-ml
+cd Used-Car-Price-Prediction
 ```
 
 3. Install required packages:
@@ -156,18 +164,24 @@ cd used-car-price-prediction-ml
 pip install -r requirements.txt
 ```
 
-4. Open the notebook:
+4. (Optional) If you want a lighter notebook execution environment, install only the runtime packages:
+
+```bash
+pip install nbclient nbformat ipykernel pandas numpy matplotlib scikit-learn xgboost
+```
+
+5. Open the notebook:
 
 ```text
 notebooks/UsedCarPricePrediction.ipynb
 ```
 
-5. Run all notebook cells from top to bottom.
+6. Run all notebook cells from top to bottom.
 
 ## Project Structure
 
 ```text
-used-car-price-prediction-ml/
+Used-Car-Price-Prediction/
 │
 ├── data/
 │   └── Used_Cars_Prices.csv
